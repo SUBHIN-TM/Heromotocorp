@@ -1,0 +1,729 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first{
+    height: 27px;
+    width: 100%;
+    background-color: #303030;
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    text-align: center;
+    padding-right: 10px;
+    padding-top: 5px;
+    position: fixed;
+    z-index: 1;
+
+}
+
+
+
+
+.first small{
+    margin-left: 8px;
+    font-family: tstar-regular;
+    color: #fff;
+
+    
+}
+.india{
+    margin-left: 10px;
+}
+
+
+
+
+.navbar{
+
+    height: 66px;
+    background-color:white;
+    color: black;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    margin-top: 27px;
+    z-index: 1;
+    
+}
+.logobox{
+    padding: 20px;
+    margin-right: 70px;
+    margin-left: 32px;
+    width: 122px;
+    height: 65px;;
+    margin-bottom: 10px;;
+}
+.logo{
+    
+    width: 122px;
+    height: 41px;
+    padding-bottom: 5px;
+    
+}
+
+.nav-links ul{
+   color: #666666;
+   display: flex;
+   gap: 30px;
+
+  
+}
+
+.nav-links li{
+    list-style: none;
+    font-size: 14px;
+    font-family: tstar-regular;
+
+}
+
+.nav-links li:hover{
+    color: black;
+   
+}
+    
+
+.buttons{
+    background-color: #e35205;
+    border-style: none;
+    border-radius: 6px;
+    color: white;
+    width: 162px;
+    height: 32px;
+    margin-left: 45px;
+}
+
+.line{
+    margin-left: 18px;
+    margin-right: 25px;
+    
+
+}
+
+.shop{
+    width: 124px;
+    height: 50px;
+    background-color: white;
+    justify-content: center;
+}
+.ss{
+     border-radius: 5px;
+    width: 124px;
+    height: 50px;
+}
+
+.karizma{
+    height: 544px;
+    background-size:100%;
+}
+
+.head{
+    height: 57px;
+    width: 715px;
+    font-size: 38px ;
+    font-family:tstar heavy;
+    font-weight: 900;
+    margin-left: 147px;
+    margin-top: 30px;
+    color: #303030;
+    
+    
+}
+
+
+.main{
+    width: 754px;
+    height: 400px;
+    background-color: #fff;
+    margin-left: 252px;
+    margin-top: 10px;
+ 
+
+
+}
+
+.main{
+    display: grid;
+    grid-template-columns: repeat(3,250px);
+    grid-template-rows: 200px 200px;
+    align-items: center;
+    justify-items: center;
+    
+
+
+
+}
+
+.b1{
+    width: 110px;
+    height: 94px;
+    background-color: #fff;
+    padding-left: 15px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px;
+
+
+}
+
+.icons{
+    width: 80px;
+    height: 81px;
+    
+}
+.tag{
+    color: #303030;
+font-size: 16px;
+padding-top: 33px;
+width: 274px;
+padding-left: 5px;
+margin-left: -13px;
+
+}
+
+.tag:hover{
+    color:red;
+  }
+
+  .zmr{
+    width: 310px;
+    height: 519px;
+    margin-left: 1120px;
+    margin-top: -500px;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .di1,.di2,.di3{
+    flex: 1;
+  }
+
+  .di1{
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+  }
+
+  .di2{
+    flex: 3;
+    background-image: url(./image/ZMR.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+  justify-content: space-between;
+  color: #e6dbdbec;
+  font-size: 37px;  
+  
+  }
+
+
+  .buynow{
+  color: #e35205;
+  font-size: 30px;
+
+
+
+  }
+
+
+  .di3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+   
+ .explore {
+    background-color: white;
+    text-align: center;
+    padding-top: 50px;
+
+
+ }
+ .explore h1{
+    font-size: 44px;
+ }
+ 
+.explorelist{
+    background-color: white;
+    color:#303030;
+}
+.explorelist ul{
+    display: flex;
+    list-style: none;
+   justify-content:center;
+   padding-top: 40px;
+
+  
+    
+}
+.explorelist li{
+    margin-right: 70px;
+    font-size: 24px;
+    text-decoration: underline;
+    font-weight: normal;
+    transition: transform 0.1s ease;  
+    /* ABOUT RESPONSE TIME.0.9SEC WILL GIVE SLOWMOTION */
+}
+
+.explorelist li:hover{
+    color:red;
+    transform: scale(1.1);
+    /* 1.0 IS THE NORMAL VALUE 1.VALUE DETERMINES HOW MAKES  IT BIGGER OR SMALLER*/
+}
+
+.bikesbackground{
+    height: 480px;
+   padding-top: 70px;
+   padding-left: 117px;
+  
+}
+
+.bikesbackground{
+    background-image: url(./image/bike\ background.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+
+.glamour{
+ width: 400px;
+ height: 380px;
+
+}
+
+.redcontainer{
+    background-color: red;
+    width: 100%;
+    height: 215px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.textdiv,.formdiv{
+    flex: 1;
+}
+
+.textdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.textdiv h1{
+    color: #fff;
+    font-size: 40px;
+}
+.textdiv p{
+    color: #fff;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.formdiv{
+   display: flex; 
+   justify-content:space-around;
+   align-items: center;
+   margin-right: 5px;
+   
+
+}
+.formdiv .f{
+    width: 276px;
+    height: 41px;
+
+}
+
+.textfield{
+    position: relative;
+    border-bottom: 1px solid black;
+
+}
+.textfield input{
+    width: 100%;
+    padding:5px;
+    font-size: 20px;
+    border: none;
+    background: none;
+    outline: none;
+    /* on typing outline dispapper */
+    color: white;
+   
+}
+::-webkit-input-placeholder{
+    color: #fff;
+}
+.vehicle{
+    border-bottom:  1px solid black;
+
+}
+.vehicle select{
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+    background: none;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+
+.mainsection{
+    display: flex;
+
+}
+
+.txt{
+height: 660px;
+flex: 1;
+
+    
+}
+
+.textarea{
+    padding-left: 50px;
+}
+
+.logos{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.textarea h1{
+    font-size: 48px;
+    padding-right: 26px;
+
+}
+.textarea p{
+    padding-top: 27px;
+   
+    font-size: 18px ;
+    line-height: 24px ;
+    letter-spacing: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.sides2{
+height: 660px;
+width: 530px;
+background-color:white;
+padding: 50px;
+display: grid;
+grid-template-columns:repeat(2,100px);
+grid-template-rows: repeat(3,100px);
+justify-content: space-around;
+row-gap: 128px;
+column-gap: 40px;
+padding-left: 10px;
+}
+
+.cell{
+    height: 128px;
+    width: 160px;
+    background-color:white;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px ;
+
+}
+
+.sides2 h1{
+    color: red;
+    padding-left: 3px;
+    font-size: 50px;
+    font-style: italic;
+}
+.sides2 p{
+    padding-left: 12px;
+    font-style: italic;
+
+}
+.cropimages img{
+    padding-left: 97px;
+    padding-top: 75px;
+}
+
+.texts{
+    text-align: center;
+}
+
+.texts h1{
+    font-size: 48px;
+}
+.texts p{
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 24px ;
+    margin-bottom: 5px;
+}
+
+
+.square{
+    display: flex;
+    width: 100%;
+    height: 668px;
+    justify-content: center;
+}
+
+.one,.two,.three{
+    width: 400px;
+}
+.one{
+    width: 582px;
+    position: relative;
+   
+}
+
+.aligntexts{
+    position: absolute;
+    bottom: 60px;
+    color: #fff;
+    padding-left: 20px;
+}
+
+.two{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.genu,.acces{
+    flex: 1;
+    
+}
+.alignments-2{
+    position: absolute;
+    color:white;
+    padding-left: 20px;
+    top: 234px;
+}
+
+.alignment3{
+    position: absolute;
+    color:white;
+    padding-left: 20px;
+    bottom: 60px;
+
+}
+
+.acces img{
+    width: 351px;
+    height: 300px;
+    border-radius: 6px;
+    height: 287px;
+}
+.three img{
+ width: 100%;
+ height: 620px;
+}
+
+.three{
+    position: relative;
+}
+.alignment4{
+
+    position: absolute;
+    bottom: 60px;
+    color: #fff;
+    padding-left: 20px;
+}
+
+.navbar2{
+    width: 100%;
+    height: 31px;
+    
+ 
+}
+.navbar2 ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    
+
+}
+.navbar2 li{
+    text-decoration: underline;
+    list-style: none;
+    font-size: 24px;
+    
+}
+.navbar2 li:hover{
+    color: red;
+    font-weight: 900;
+}
+.lastblock{
+    width: 100%;
+    height: 648px;
+display: flex;
+}
+
+.block1,.block2{
+   margin: 70px;
+    width: 627px;
+  
+}
+
+.block1{
+    position: relative;
+}
+
+.block1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.block1text{
+    position: absolute;
+    bottom: 15px;
+    color: white;
+    padding-left: 30px;
+}
+
+.block2{
+    display: flex;
+    flex-direction: column;
+
+}
+.t1,.t2{
+    flex: 1;
+    padding: 10px;
+}
+
+.t1{
+    position: relative;
+}
+
+.t1 img{
+width: 100%;
+height: 203px;
+border-radius: 10px;
+
+}
+
+.t1text{
+    position: absolute;
+    bottom: 50px;
+    color: white;
+    padding-left: 30px;
+}
+.t2{
+    position: relative;
+}
+
+.t2 img{
+    width: 100%;
+    height: 209px;
+}
+.t2text{
+    position: absolute;
+    bottom: 50px;
+    color: white;
+    padding-left: 30px;
+}
+
+
+
+.footer{
+    height: 400px;
+    border: 1px solid black;
+    background-color: #303030;
+    display: flex;
+    justify-content: space-around;
+}
+.ft1,.ft2,.ft3,.ft4{
+    width: 300px;
+    height: 320px;
+    margin-top: 75px;
+}
+
+.hilite{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 900;
+    line-height:2.5;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.footer li{
+    list-style: none;
+    color: #757575;
+    line-height: 20px;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.footer li:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+
+
+
+.lastfooter{
+    height: 173px;
+    width: 100%;
+    background-color: #303030;
+    margin-top: -41px;
+
+    display: flex;
+    flex-direction: column;
+    padding-left: 36px;
+    padding-right: 36px;
+}
+.up,.down{
+    flex: 1;
+    
+}
+
+.up{
+    display: flex;
+}
+
+.gp,.apple{
+    width: 150px;
+    height: 45px;
+}
+.apple{
+    margin-left: 42px;
+}
+
+.y,.f,.l,.in,.tw{
+    width: 33px;
+    height: 33px;
+    margin-right: 45px;
+}
+
+.y{
+    margin-left: 709px;
+}
+
+.down{
+    border-top: 1px solid white;
+    display: flex;
+}
+
+.down ul{
+    display: flex;
+    list-style: none;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.last{
+    color: #fff;
+    margin-left: 434px;
+    margin-top: 10px;
+}
